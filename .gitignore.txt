@@ -1,4 +1,14 @@
+# Ignora tudo por padrão
 *
+
+# Permite o próprio .gitignore
 !.gitignore
+
+# Estudos de Caso
 !Estudo_de_Caso/
 !Estudo_de_Caso/**
+
+# Código técnico permitido
+!Tecnico/
+!Tecnico/Codigo_Python_Metodos/
+!Tecnico/Codigo_Python_Metodos/**
