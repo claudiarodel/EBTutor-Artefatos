@@ -4,11 +4,15 @@
 # Permite o próprio .gitignore
 !.gitignore
 
-# Estudos de Caso
-!Estudo_de_Caso/
-!Estudo_de_Caso/**
+# Estudos de Caso 
+!Estudos_de_Caso/
+!Estudos_de_Caso/**
 
 # Código técnico permitido
 !Tecnico/
 !Tecnico/Codigo_Python_Metodos/
 !Tecnico/Codigo_Python_Metodos/**
+
+# Banco de dados permitido
+!Tecnico/Banco_de_Dados/
+!Tecnico/Banco_de_Dados/**
