@@ -1,0 +1,4 @@
+*
+!.gitignore
+!Estudo_de_Caso/
+!Estudo_de_Caso/**
