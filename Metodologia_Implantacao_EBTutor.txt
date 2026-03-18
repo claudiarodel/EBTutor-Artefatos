@@ -1,0 +1,24 @@
+Metodologia de implantação do EBTutor
+
+Banco de Dados 
+1- Criar um banco de dados no SGBD PostgreSQL
+2- Efetuar carga de dados de todos os elementos que fazer parte dos módulos do domínio (Tabelas Item, alternativa, Questionário, Material_Didatico) e aluno (Tabela Alunos).
+3- Cadastrar 
+   3.1 Elementos de conhecimento (Tabelas Elemento_Conhecimento, Conceito, Relacao)).
+   3.2 Declarações (Tabela Declaracao).
+   3.3 Relações entre questionários e assuntos (Tabela Abarca).
+   3.4 Dimensões de competência (Tabela Aspecto_Dimensao).
+   3.5 Atividades Educacionais (Tabelas Atividades e Usa_Tarefa).
+   3.6 Objetos de aprendizagem (grafos de conhecimento)  (Tabela Material_Didatico).
+   3.7 Relações entre os objetos de aprendizagem e os elementos de conhecimento (Tabelas Cobre, Compreende). 
+   3.8 Relações entre os itens  e os elementos de conhecimento (Tabela Envolve).
+   3.9 Relações entre os itens e os assuntos (Tabela Refere_se_ao).
+   3.10 Relações entre os itens e as habilidade (Tabela Requer).
+   3.11 Relações entre os assuntos e as habilidades (Tabela Necessita).
+   3.12 Relações entre os assuntos e os objetos de aprendizagem (Tabela Possui)
+   3.14 Regras de Inferência referentes às atitudes (específica em cada curso).
+   3.15 Informações para login (Tabelas system_user, system-user_group)
+
+Aplicação
+1- Inserir no código o nome do banco de dados criado anteriormente.
+2- Fazer o upload da aplicação para o local de hospedagem.
