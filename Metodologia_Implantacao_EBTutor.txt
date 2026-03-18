@@ -17,7 +17,7 @@ Banco de Dados
    3.11 Relações entre os assuntos e as habilidades (Tabela Necessita).
    3.12 Relações entre os assuntos e os objetos de aprendizagem (Tabela Possui)
    3.13 Regras de Inferência referentes às atitudes (específica em cada curso).
-   3.14 Informações para login (Tabelas system_user, system-user_group)
+   3.14 Informações para login (Tabelas system_user, system_user_group)
 
 Aplicação
 1- Inserir no código o nome do banco de dados criado anteriormente.
